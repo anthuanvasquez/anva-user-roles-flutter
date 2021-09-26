@@ -28,8 +28,9 @@ class _HomepageState extends State<Homepage> {
       appBar: AppBar(
         title: Text('Anva Users Roles'),
       ),
-      body: Center(
-        child: Text('Hello World'),
+      body: Container(
+        padding: EdgeInsets.all(15),
+        child: Image.network('http://placeimg.com/640/480/any'),
       ),
     );
   }
