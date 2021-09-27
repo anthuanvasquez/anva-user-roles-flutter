@@ -28,20 +28,14 @@ class _HomepageState extends State<Homepage> {
       appBar: AppBar(
         title: Text('Anva Users Roles'),
       ),
-      body: ListView(
+      body: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
         children: <Widget>[
-          Container(
-            padding: EdgeInsets.all(15),
-            child: Image.network('http://placeimg.com/640/480/any'),
-          ),
-          Container(
-            padding: EdgeInsets.all(15),
-            child: Image.network('http://placeimg.com/640/480/any'),
-          ),
-          Container(
-            padding: EdgeInsets.all(15),
-            child: Image.network('http://placeimg.com/640/480/any'),
-          ),
+          Text('Hello'),
+          Text('Hello'),
+          Text('Hello'),
+          Text('Hello'),
         ],
       ),
     );
